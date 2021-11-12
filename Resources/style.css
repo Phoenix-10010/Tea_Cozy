@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    background-color: black;
+    
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    padding-top: 69px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    opacity: 0.9;
+    
+}
+
+header {
+    padding: 69px 0;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    display: inline-flex;
+    flex-basis: auto;
+    justify-content: space-between;
+    
+}
+
+article, footer {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+footer {
+    margin: 0 20px;
+}
+
+#logo, nav {
+    margin: 8.5px 10px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+
+.navLinks {
+    display: flex;
+    text-decoration: underline;
+    flex-wrap: wrap;
+    
+
+}
+
+
+li {
+    list-style-type: none;
+    padding: 0px 10px;
+    
+
+}
+
+a, a:active, a:visited, a:hover {
+    color: seashell;
+}
+
+.top {
+    background-image: url("../Media/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+.middle {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bottom {
+    background-image: url("../Media/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.textTop {
+    position: relative;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.middleImg {
+    position: relative;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.imgMid {
+    margin: 10px;
+}
+
+.bottomImg {
+    height: 500px;
+    width: 1200px;
+}
+
+.bottom h2 {
+    background: transparent;
+}
+
+.textBottom {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    top: 10%;
+    width: 80%;
+    background: transparent;
+}
+
+.tbl, .tbm, .tbr {
+    flex-grow: 2;
+    margin: 15px 10px;
+    width: 300px;
+    opacity: 1;
+    padding: 0;
+}
+
+.contact {
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    text-align: left;
+}
